@@ -13,3 +13,7 @@ logs
 application-youlai.yml
 /boot-run*.log
 /boot-run*.err
+
+.trae/
+.agents/
+skills-lock.json
