@@ -9,14 +9,14 @@ server:
 spring:
   # MySQL 数据库
   datasource:
-    url: jdbc:mysql://www.youlai.tech:3306/youlai_admin?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/youlai_admin?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
     username: youlai
     password: 123456
   # Redis（登录会话、验证码、限流等）
   data:
     redis:
       database: 0
-      host: www.youlai.tech
+      host: 127.0.0.1
       port: 6379
       password: 123456
       timeout: 10s
